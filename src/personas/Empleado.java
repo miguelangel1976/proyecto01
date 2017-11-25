@@ -5,8 +5,11 @@ public class Empleado extends Persona{
 	//Atributos
 	String idPersonal;
 	float sueldo;
-	
+
+	int numero;
+
 	public String getIdPersonal() {
+		numero = 5;
 		return idPersonal;
 	}
 	
